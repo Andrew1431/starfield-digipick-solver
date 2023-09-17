@@ -18,6 +18,7 @@ const App = () => {
       <Routes>
         <Route path={AppRoutes.Home} element={<AutoSolverPage />} />
         <Route path={AppRoutes.Help} element={<HelpPage />} />
+        <Route path={AppRoutes.AutoSolver} element={<AutoSolverPage />} />
       </Routes>
       <Footer />
     </div>
