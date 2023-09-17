@@ -91,11 +91,6 @@ export const AutoSolverPage = () => {
       ) : (
         <KeyPicker />
       )}
-      <div className={styles.footerLinkWrapper}>
-        <Link to={AppRoutes.Home} className="link">
-          Back to manual solver
-        </Link>
-      </div>
     </div>
   );
 };
