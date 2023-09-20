@@ -7,7 +7,7 @@ import './styles/palette.scss';
 import './styles/reset.scss';
 import './styles/shadows.scss';
 import './styles/typography.scss';
-import { Footer } from './components/shared/Footer';
+import Footer from './components/shared/Footer';
 import { HelpPage } from './pages/HelpPage';
 import { AppRoutes } from './routes';
 import { AutoSolverPage } from './pages/AutoSolverPage';
